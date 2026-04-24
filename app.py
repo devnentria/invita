@@ -261,11 +261,10 @@ HTML = """
 <!-- PANTALLA DE GRACIAS (aparece al aceptar) -->
 <div id="gracias-screen">
     <span class="big-heart">🎉</span>
-    <h2>¡Lo sabía! 💖</h2>
-    <p>Vamos el <strong id="dia-elegido"></strong>.<br>
-    Sushi 🍣 y cine 🎬 contigo.<br>Solo nosotros dos. 🥰</p>
+    <h2>¡Sabía que dirías que sí! 💖</h2>
+    <p>El <strong id="dia-elegido"></strong> te espero,<br>mi niña bonita 🥰</p>
     <div class="dia-chip" id="dia-chip"></div>
-    <p style="margin-top:22px;opacity:.5;font-size:.8rem;">Te amo mucho ♥</p>
+    <p style="margin-top:22px;opacity:.5;font-size:.8rem;">Te amo muchísimo ♥</p>
 </div>
 
 <!-- CONTENIDO PRINCIPAL -->
@@ -274,14 +273,42 @@ HTML = """
     <!-- HERO -->
     <div class="hero">
         <span class="envelope">💌</span>
-        <span class="label">Una invitación especial para ti</span>
-        <h1>¿Salimos tú y <em>yo</em>?</h1>
+        <span class="label">para mi niña bonita</span>
+        <h1>Hola,<br><em>mi amor</em> 😘</h1>
         <div class="divider"></div>
         <p class="hero-text">
-            Hola mi amor 😘<br>
-            Quiero invitarte a una noche<br>
-            increíble — solo los dos.
+            Quiero salir contigo esta noche.<br>
+            Sushi, cine, y tú —<br>
+            no necesito nada más.
         </p>
+    </div>
+
+    <!-- POEMA -->
+    <div class="section" style="animation-delay:.05s; text-align:center;">
+        <div style="padding:28px 26px 30px;">
+            <p class="section-label" style="margin-bottom:14px;">para ti</p>
+            <p style="
+                font-family:'Playfair Display', serif;
+                font-style:italic;
+                font-size:1.05rem;
+                color:rgba(255,255,255,.88);
+                line-height:1.95;
+            ">
+                Me pierdo en tus ojos<br>
+                cada vez que me miras,<br>
+                como si ahí adentro<br>
+                viviera todo lo que quiero.<br><br>
+                Tu sonrisa me desarma,<br>
+                aparece y ya no puedo<br>
+                pensar en nada más.<br><br>
+                Y tu piel, suave como la seda,<br>
+                me recuerda que hay cosas<br>
+                que no se describen —<br>
+                solo se sienten.<br><br>
+                Eso eres tú para mí.
+            </p>
+            <div style="width:40px;height:1px;background:rgba(255,107,157,.4);margin:20px auto 0;"></div>
+        </div>
     </div>
 
     <!-- SUSHI -->
@@ -310,7 +337,7 @@ HTML = """
 
     <!-- CTA -->
     <div class="cta-section">
-        <p class="question">¿Cuándo te queda bien, amor?</p>
+        <p class="question">¿Cuándo puedes, mi vida?</p>
         <form id="form-respuesta">
             <div class="btns">
                 <button type="button" class="btn btn-yes" onclick="aceptar('Hoy viernes')">
